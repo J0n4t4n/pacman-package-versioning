@@ -1,4 +1,4 @@
-📦 pacman-package-versioning
+# 📦 pacman-package-versioning
 
 This repository provides a shell script and a pacman hook for automatic backup of explicitly installed packages on Arch Linux.
 
