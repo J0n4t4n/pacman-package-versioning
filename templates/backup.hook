@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Running Backup hook...
+When = PostTransaction
+Exec = /etc/pacman.d/hooks.bin/backup.sh
